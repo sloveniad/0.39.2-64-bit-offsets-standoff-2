@@ -1,0 +1,369 @@
+https://t.me/AcademicDLC
+// ============================================================
+// ObjectPlayer (TypeDefIndex: 1064) : MonoBehaviour
+// ============================================================
+0x20  void*   HDDBHHFDBEGCEDG
+0x28  float   <HDHCECFFADDHFFD>k__BackingField  // health
+0x2C  float   <HHAHGECHAEBDCHB>k__BackingField  // armor
+0x30  float   CGECFECBGEBBCED
+0x34  float   BFAHCHDAHADBGAD
+0x38  float   BHEBGGBHEECECDC
+
+// ============================================================
+// CharacterPlayer (TypeDefIndex: 765) : ObjectPlayer
+// ============================================================
+0x48  void*   DCGGEGHHACGCFBD
+0x50  void*   PlayerController
+0x58  bool    HDFHFDGHAEFHEHC
+
+// ============================================================
+// PlayerController (TypeDefIndex: 776) : Photon.PunBehaviour
+// ============================================================
+0x00  void*   ILogger
+0x08  int     MaxCtHealth
+0x0C  int     MaxCtArmor
+0x10  int     MaxTrHealth
+0x14  int     MaxTrArmor
+0x28  void*   Transform     _mainCameraHolder
+0x30  void*   GameObject    _fpsCameraHolder
+0x38  void*   GameObject    _fpsDirective
+0x40  void*   PlayerLevelZonesController
+0x48  void*   PlayerCharacterView
+0x50  void*   PlayerCharacterView
+0x58  void*   CBGAABDHGHGDFCE
+0x60  void*   GEHAGCHFDFAECCC
+0x68  void*   DEGCBEDEGDHGFGC
+0x70  void*   CBACAAECDDABBFH
+0x78  bool    EDBGBDAHEAEDFCC
+0x7C  float   <AEDDGECCHCFBBCH>k__BackingField
+0x80  void*   AimController
+0x88  void*   WeaponryController
+0x90  void*   MecanimController
+0x98  void*   MovementController
+0xA0  void*   ArmsAnimationController
+0xA8  void*   PlayerHitController
+0xB0  void*   PlayerMaterialController
+0xB8  void*   PlayerOcclusionController
+0xC0  void*   NetworkController
+0xC8  void*   ArmsLodGroup
+0xD0  void*   PlayerCharacterView
+0xD8  bool    <AFBHCBEGEDFFEBE>k__BackingField
+0xD9  bool    <EDCDFBHFEADADBB>k__BackingField
+0xDC  float   <CEBAFFDFHGBHBBB>k__BackingField
+0xE0  void*   PlayerSoundController
+0xE8  void*   PlayerMainCamera
+0xF0  void*   PlayerFPSCamera
+0xF8  void*   PlayerMarkerTrigger
+0x100 void*   Transform
+0x108 void*   Controller[]
+0x110 object  EDEBBDHHFADFDEE
+0x118 void*   CharacterController
+0x120 void*   SkinnedMeshLodGroup
+0x128 void*   CharacterLodGroup
+0x130 bool    <ACBBFGBBBBFFDHB>k__BackingField
+0x131 bool    <CGEDHFABAGEDCAD>k__BackingField
+0x134 void*   GGBGGDAGBGGGACD
+0x138 object  CGDGHABDCGBFDAC
+0x140 object  HGEEHAFBAHFCDAE
+0x148 object  ABDBEAGFCHDEHCC
+0x158 void*   PhotonView
+0x15C int     <FACDFFBDHEBHAFG>k__BackingField
+0x160 int     <FFHFDHGFFDGFBBB>k__BackingField
+0x168 void*   PhotonPlayer
+
+// ============================================================
+// PlayerMainCamera (TypeDefIndex: 779) : MonoBehaviour
+// ============================================================
+0x20  void*   Camera
+0x28  void*   CameraScopeZoomer
+0x30  void*   CameraAnimationController
+0x38  void*   Transform
+0x40  void*   MainCamera
+0x48  void*   PlayerController
+
+// ============================================================
+// PlayerFPSCamera (TypeDefIndex: 3729) : CameraMovementController
+// ============================================================
+0xB8  int     GFCGABHDBCGBBCA
+0xBC  bool    EAGBHHDAGBGDBEG
+0xC0  Vector2 GBEEDGAEHDCFCGH
+0xC8  Vector2 GHGDGADBGDCGADE
+0xD0  float   BECEHEEGHDAGCCG
+0xD4  float   FGDDGEDBAHDDHHC
+0xD8  Vector3 FGDCBEFEHBBBDDG
+0xE4  Vector3 HAHAHFEDFGBACBB
+0xF0  enum    BHBCGBHDHDCBFBG
+0xF4  int     GBGBEFFBBDBBBEH
+0xF8  bool    _debugOverrideEnabled
+0xFC  enum    _debugViewType
+0x100 void*   PlayerController
+0x108 Vector3 AGEAHBEEDGHGGCC
+0x114 Vector3 BBBDFHAGFFAGDCE
+0x120 Vector3 CDEBEDGCAADAHFE
+0x12C Vector3 ADAFFGHCFFAEHBF
+
+// ============================================================
+// CameraMovementController (TypeDefIndex: 3709) : MonoBehaviour
+// base for PlayerFPSCamera
+// ============================================================
+0x20  bool    HCDBFABCHHFFHDB
+0x24  float   GABFEFBCAAGGCHE
+0x28  float   DHDGFHADGEAGDED
+0x2C  float   GHEBHBABEDHECGA
+0x30  float   EGDDGGCHHGADFCC
+0x34  bool    AHHFGDBBDCDEBDB
+0x38  float   GAEABGHDCGCEBBG
+0x3C  float   ECEFAEGHAHEAFAB
+0x40  void*   DCCDFBHEDHFFBGG
+0x48  void*   Transform
+0x50  void*   AnimationCurve
+0x58  Vector3 AAEGAGAAHFCBEEE
+0x64  Vector3 GHHHGDEDAAEBCEH
+0x70  RaycastHit GHBCABCDBHFHEAH
+0xA0  void*   Camera
+0xA8  float   <ECHDCCDGGGDFFHE>k__BackingField
+0xB0  void*   Transform
+
+// ============================================================
+// AimController (TypeDefIndex: 1011) : Controller (0x58)
+// ============================================================
+0x58  float   sensitivityX
+0x5C  float   sensitivityY
+0x60  float   minimumX
+0x64  float   maximumX
+0x68  void*   Transform FPSP_go
+0x70  void*   Transform spineDirector
+0x78  void*   Transform FPSCamera
+0x80  void*   Transform camTransform
+0x88  void*   AimingParameters
+0x98  void*   InterpolatorsBunch
+0xA0  void*   TuningParams
+0xA8  float   _headDampingSpeed
+0xB0  void*   PlayerController
+0xB8  void*   MovementController
+0xC0  void*   Transform
+0xC8  void*   MecanimController
+0xD0  void*   Transform
+0xD8  bool    isAiming
+0xE8  object  CHHFDEEAHBECGBG
+0xF0  Vector3 DGFBHDHHHHFHAAH  // aimPoint
+0x100 object  HEEHCBHCFEGBGBH
+0x110 TransformTR ECAADFFDBCFHFAA
+0x118 TransformTR DEDBACABEFBEFFH
+0x120 Pose     EGDAECDBFCAAEBB
+0x13C Pose     GFACCHGDGCAHECD
+0x158 Pose     EBCHFCHADEFBFAG
+0x174 Pose     EBAGGDBBBFEBFDD
+0x190 Pose     HHEBAAFBCDGAGCD
+0x1B0 void*   WeaponAnimationParameters
+0x1E0 bool    <DCBEFCAFACGCBAE>k__BackingField
+0x1E4 float   <GHEBHBDGDCFCGCF>k__BackingField
+0x1E8 float   <AECAFGDAACGGHGB>k__BackingField
+0x1F8 float   FCBBBFDCFGEGBGH
+0x1FC float   HDDHBFBBFHHECAA
+0x208 void*   WeaponryController
+0x210 Quaternion EHGBCDHACECCGEH
+0x220 bool    ToolPivotTuningEnabled
+0x224 bool    SpineRotationEnabled
+0x228 Vector3 FCBHBDAHFFEFADG
+0x234 Vector3 HEECACDHDCEACAG
+0x240 Vector3 CFGGCFBHGADBHGF
+0x24C Pose    DACCBDEFHFCBCFF
+
+// ============================================================
+// MovementController (TypeDefIndex: 916) : Controller (0x58)
+// ============================================================
+0x58  void*   PlayerController
+0x60  void*   PlayerOcclusionController
+0x68  bool    _neverIdle
+0x70  void*   Transform
+0x78  void*   CBGAABDHGHGDFCE
+0x80  float   <DAACGCEGCFEBDGB>k__BackingField
+0x84  float   <BADDGBHHAGBGHGB>k__BackingField
+0x88  void*   CharacterController
+0x90  void*   Trigger
+0x98  void*   ABCCFAEABHDGDED[]
+0xA0  void*   BGGHFDHDDDFEDHH
+0xA8  void*   PlayerTranslationParameters
+0xB0  void*   FHGFGHACABBBFFC
+0xB8  void*   AFDBCGFGCBHCHED
+0xC0  void*   Transform characterTransform
+0xC8  void*   MecanimController
+0xD0  float   FEAAGCFFGCEHCCE
+0xD8  object  GDCBAABHFAEDBGC
+0xE0  object  AFEDFEECFEFGECG
+
+// ============================================================
+// WeaponryController (TypeDefIndex: 817) : Controller (0x58)
+// ============================================================
+0x78  void*   PlayerController
+0x80  void*   MecanimController
+0x88  byte    currentWeaponSlot
+0x89  bool    isLocal
+0x90  void*   WeaponPickupController
+0x98  void*   KitController
+0xA0  void*   WeaponController  // current weapon
+0xA8  bool    <GFABGFHAGGDABCC>k__BackingField
+0xA9  bool    <CGHDAEACBBFECFC>k__BackingField
+0xAC  float   <GCBDFHAGAFAGAEE>k__BackingField
+0xB0  float   <ECDDCBBBHCGCDEG>k__BackingField
+0xB8  void*   WeaponManager
+
+// ============================================================
+// WeaponController (TypeDefIndex: 1812) : MonoBehaviour
+// ============================================================
+0x20  void*   PlayerController
+0x28  void*   MecanimController
+0x30  void*   WeaponAnimationController
+0x38  void*   WeaponAnimationParameters
+0x40  enum    VisibilityState
+0x60  void*   Transform
+0x68  void*   Controller[]
+0x80  float   <CGECEGCEHDBFFED>k__BackingField  // spread?
+0x84  float   <BAFCGDBCDCCBBDA>k__BackingField
+0x88  void*   WeaponLodGroup
+0x90  void*   HandleState
+0x94  byte    <ABCHHCAADDCEFCC>k__BackingField
+0x98  string  weaponName
+0xA0  int     <DGBEAAEBCEEDGHA>k__BackingField  // ammo?
+0xA4  int     <GAGCHDBHDGCECFE>k__BackingField
+0xA8  void*   WeaponParameters
+0xB0  void*   DCCEDECHBBFEHDH
+0xB8  void*   WeaponMap
+0xC4  bool    <FAGEGAABGEBFHGH>k__BackingField
+0xC8  void*   WeaponStatTrackController
+0xD0  void*   WeaponMaterialController
+0xD8  void*   WeaponPatternControllerComponent
+
+// ============================================================
+// WeaponManager (TypeDefIndex: 1822)
+// ============================================================
+0x28  object  ShootEvent
+0x30  object  SetWeaponEvent
+0x38  object  SwitchWeaponEvent
+0x68  void*   StatTrackController
+0x70  void*   Transform
+0x78  void*   SafeBool
+
+// ============================================================
+// NetworkController (TypeDefIndex: 773) : Controller (0x58)
+// ============================================================
+0x88  void*   CharacterPlayer
+0x90  void*   PlayerController
+0x98  void*   PhotonView
+0xA0  int     GFCGHFHFHCHBDHC
+0xA4  int     AAFDHDFCAGHGDGG
+0xA8  float   DGCDDAHADDCEACF
+0xAC  bool    logSnapshotSize
+0xB0  double  <FHDABGGCFGAFCAA>k__BackingField
+0xB8  int     <EDFAFABAAGEEEDH>k__BackingField  // ping?
+0xBC  bool    <CABFHFAFGBAHBDG>k__BackingField
+
+// ============================================================
+// PlayerManager (TypeDefIndex: 788)
+// ============================================================
+0x24  int     FFGFDHBACFDHFED
+0x60  bool    CDBAEFGDGAECGAE
+0x68  void*   PlayerController  // localPlayer
+0x70  void*   PlayerController
+
+// ============================================================
+// PlayerHitController (TypeDefIndex: 983)
+// ============================================================
+0x70  float   LocalTime
+0x74  bool    GGGCEDFHBDFDHHB
+
+// ============================================================
+// GameManager (TypeDefIndex: 2166) : Photon.PunBehaviour
+// ============================================================
+0x60  void*   GameController
+0x80  bool    BFFDFHCEDHDEDFE
+0xB8  void*   LevelDefinition
+0xC0  enum    DisconnectCause
+
+// ============================================================
+// PhotonView (TypeDefIndex: 20137)
+// ============================================================
+0x08  int     ownerId
+0x0C  byte    group
+0x4C  int     viewIdField
+0x50  int     instantiationId
+0x54  int     currentMasterID
+0x58  bool    didAwake
+0x59  bool    isRuntimeInstantiated
+0x60  void*   MonoBehaviour[] RpcMonoBehaviours
+0x68  void*   MethodInfo OnSerializeMethodInfo
+0x70  bool    failedToFindOnSerialize
+
+// ============================================================
+// Controller (base, TypeDefIndex: 767)
+// Base for AimController, MovementController, WeaponryController,
+// NetworkController, PlayerHitController etc.
+// ============================================================
+0x00  void*   ILogger
+0x08  void*   GGBGGDAGBGGGACD
+0x10  void*   EBBFAFBCBFGDGGE
+0x18  void*   BipedMap
+0x20  void*   Transform
+0x28  void*   PhotonPlayer
+0x30  int     ACEGAHGAAHDBCFA
+0x34  int     HGGGEEBCGAAGHDD
+0x38  bool    CGAGAADGEDDBGGH
+0x39  bool    isMine
+0x3A  bool    _HGGGEFCGFAFBFGD_k__BackingField
+// Size: 0x58
+
+// ============================================================
+// TypeInfo addresses (script.json)
+// ============================================================
+0x6B2D860  Axlebolt.Standoff.Cam.CameraMovementController_TypeInfo
+0x6B3C2C0  Axlebolt.Standoff.Game.GameManager_TypeInfo
+0x6B4D7B8  Axlebolt.Standoff.Cam.MainCamera_TypeInfo
+0x6B501D0  Axlebolt.Standoff.Player.Movement.MovementController_TypeInfo
+0x6B52FD8  PhotonView_TypeInfo
+0x6B53318  Axlebolt.Standoff.Player.PlayerController_TypeInfo
+0x6B533B0  Axlebolt.Standoff.Cam.PlayerFPSCamera_TypeInfo
+0x6B53408  Axlebolt.Standoff.Player.PlayerMainCamera_TypeInfo
+0x6B53410  Axlebolt.Standoff.Player.PlayerManager_TypeInfo
+0x6B55898  Axlebolt.Standoff.Inventory.WeaponController_TypeInfo
+0x6B55AF8  Axlebolt.Standoff.Inventory.WeaponManager_TypeInfo
+
+// ============================================================
+// MethodInfo addresses (script.json)
+// ============================================================
+0x6B64088  PlayerController.BBCAFEDDCHADEAG_MethodInfo
+0x6B64090  PlayerController.DAGGGDHCDFCEDEG_MethodInfo
+0x6B64098  PlayerController.EHGDFGCACDFHHAG_MethodInfo
+0x6B640A0  PlayerController.GCFHBAAEAABFDEE_MethodInfo
+0x6B640E8  PlayerManager.BACFAHDFBDEBCEF_MethodInfo
+0x6B640F0  PlayerManager.BFGEECABEFFHHEE_MethodInfo
+0x6B640F8  PlayerManager.DACEEHDAGBBGAHB_MethodInfo
+0x6B64158  PlayerHitController.BBHEEFBFDADAECH_MethodInfo
+0x6B64160  PlayerHitController.CADGEEDHEAGFDHC_MethodInfo
+0x6B64168  PlayerHitController.CDHEGAHDDBAEAFA_MethodInfo
+0x6B64170  PlayerHitbox.GEEFAAGGGEDEHFC_MethodInfo
+
+// ============================================================
+// WeaponryController ScriptMethod addresses (script.json)
+// ============================================================
+0x91AC308  Axlebolt.Standoff.Player.Weaponry.WeaponryController$$ABFHDFFGCECHBBC
+0x91AC4DC  Axlebolt.Standoff.Player.Weaponry.WeaponryController$$ECDBABDFCBHFFGD
+0x91A46D8  Axlebolt.Standoff.Player.Weaponry.WeaponryController$$HCBDEACEAEHECGB
+0x91B287C  Axlebolt.Standoff.Player.Weaponry.WeaponryController$$EEHHBCBGEBAGGCD
+0x91C5A90  Axlebolt.Standoff.Player.Weaponry.WeaponryController$$GEGGADGDEBHDFFB
+0x91D2DA0  Axlebolt.Standoff.Player.Weaponry.WeaponryController$$GHBGDGCFECHBGGC
+0x91D3F64  Axlebolt.Standoff.Player.Weaponry.WeaponryController$$HGCEAEFGDFFAEEC
+0x91DB9D8  Axlebolt.Standoff.Player.Weaponry.WeaponryController$$OnPreInitialize
+0x91E0F9C  Axlebolt.Standoff.Player.Weaponry.WeaponryController$$FDCEAHHEDBDHDAF
+0x91E28B4  Axlebolt.Standoff.Player.Weaponry.WeaponryController$$BHAHFFGGHDECFCA
+0x91E2F28  Axlebolt.Standoff.Player.Weaponry.WeaponryController$$EFFCECCACEBHCAD
+0x91E5034  Axlebolt.Standoff.Player.Weaponry.WeaponryController$$GBDHGFFCEACHBAG
+0x91E5378  Axlebolt.Standoff.Player.Weaponry.WeaponryController$$EDFAFCCGEACBACE
+0x91E4BA4  Axlebolt.Standoff.Player.Weaponry.WeaponryController$$EHFGFFDFHGEEHDG
+0x91EA57C  Axlebolt.Standoff.Player.Weaponry.WeaponryController$$EFABHHGCBECAHHC
+0x91EA6AC  Axlebolt.Standoff.Player.Weaponry.WeaponryController$$DHHEDEADGFGCDBH
+0x91EC718  Axlebolt.Standoff.Player.Weaponry.WeaponryController$$FFBFECDDGBBEFBF
+0x91EC760  Axlebolt.Standoff.Player.Weaponry.WeaponryController$$GDEAFFCDCGDCHGG
+0x91EDDAC  Axlebolt.Standoff.Player.Weaponry.WeaponryController$$CFCEDBBGDFGACGA
+0x91EE3A4  Axlebolt.Standoff.Player.Weaponry.WeaponryController$$DEBCGHDADAFHBAG
+0x91EF464  Axlebolt.Standoff.Player.Weaponry.WeaponryController$$ABHCFAGFGFDBBEG
